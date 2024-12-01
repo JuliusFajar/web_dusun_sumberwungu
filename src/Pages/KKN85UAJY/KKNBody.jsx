@@ -33,7 +33,7 @@ function Body() {
             <InstagramEmbed
               width="100%"
               height="auto"
-              url="https://www.instagram.com/karanglor13_kkn85?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              url="https://www.instagram.com/aboutwunut?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -47,7 +47,7 @@ function Body() {
             <InstagramEmbed
               width="560"
               height="1200"
-              url="https://www.instagram.com/karanglor13_kkn85?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              url="https://www.instagram.com/aboutwunut?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -61,7 +61,7 @@ function Body() {
             <InstagramEmbed
               width="100%"
               height="auto"
-              url="https://www.instagram.com/p/C9Oo-icSCWyZs04nMLrgAepiSrwOYED6mslde00/?igsh=MWFjNjNhNDZoYTF2Zg=="
+              url="https://www.instagram.com/p/DAa2wMxvSFv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -75,7 +75,7 @@ function Body() {
               width="100%"
               height="auto"
              
-              url="https://www.instagram.com/p/C9Ovy4ayHcnU-zx55O1zexLkfDHo-rmemVV0WM0/?igsh=cjR2ZXUybnRtN2M5"
+              url="https://www.instagram.com/p/DAa2uROP2H8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -89,7 +89,7 @@ function Body() {
               width="100%"
               height="auto"
           
-              url="https://www.instagram.com/p/C9PdUS_ymskcfWqzwg0tKGz2p8AUfqUZpC3PFc0/?igsh=YzN6YjA3dmpiOW5v"
+              url="https://www.instagram.com/p/DAa2roXPcX6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -98,7 +98,7 @@ function Body() {
             ></InstagramEmbed>
           </div>
 
-          <div className="my-10 w-full">
+          {/* <div className="my-10 w-full">
             <InstagramEmbed
               width="100%"
               height="auto"
@@ -124,7 +124,7 @@ function Body() {
               allowFullScreen
               className="w-full h-auto md:h-auto rounded-md"
             ></InstagramEmbed>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -50,7 +50,6 @@ function App() {
       </Helmet>
       <div className='dark:bg-red-900'>
       <Header />
-      {/* http://karanglor.com/ */}
       <Routes>
         <Route path="/" element={<Beranda />} />
         <Route path="/profil" element={<Profil />} />

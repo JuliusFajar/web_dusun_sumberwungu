@@ -61,7 +61,7 @@ function Body() {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/HfWLgELllZs?si=L5VacQGspWMzGleh"
+                src="https://www.youtube.com/embed/iBoI17HYu6Q?si=baXTfuzm0UOjDSsv"
                 //https://www.youtube.com/embed/fUGtSMS3Rrg?start=130
                 //https://www.youtu.com/embed/ZncbtRo7RXs?si=LYTso9Wos-OTTaYu
                 title="YouTube video player"
@@ -80,6 +80,7 @@ function Body() {
           
           <div className='p-3'>
             <img src={Maps} alt="" onClick={handleImageClick} />
+            
             <p className='my-2 ms-2 text-xs font-thin text-[#7DA148] dark:text-white  flex justify-center'>Tekan Gambar untuk Detail</p>
           </div>
 
@@ -127,19 +128,19 @@ function Body() {
             </ul>
           </div>
           <div id="default-tab-content">
-            <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900  ${activeTab === 'tourism' ? '' : 'hidden'}`} id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
-                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Karanglor memiliki potensi pariwisata yang besar dengan keindahan alam dan budaya lokalnya. Nantinya, dusun ini akan menghadirkan homestay bagi para wisatawan, memberikan kesempatan bagi pengunjung untuk merasakan kehidupan dusun yang autentik dan keramahan penduduk setempat. Dengan lokasi strategisnya yang dekat dengan pantai (Pantai Wediombo, Pantai Jungwok, dan Pantai Sedahan). Homestay di Karanglor tidak hanya akan meningkatkan daya tarik wisata, tetapi juga membantu memajukan perekonomian lokal melalui sektor pariwisata.</p>
+            {/* <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900  ${activeTab === 'tourism' ? '' : 'hidden'}`} id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
+                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu memiliki potensi pariwisata yang besar dengan keindahan alam dan budaya lokalnya.</p>
                 <Link to='/pariwisata' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]">Baca selengkapnya</Link>
-            </div>
+            </div> */}
             
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'micro-enterprise' ? '' : 'hidden'}`} id="micro-enterprise" role="tabpanel" aria-labelledby="micro-enterprise-tab">
-                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Karanglor, sebuah dusun yang terletak di tepi perbukitan Gunung Kidul, tidak hanya menarik dengan keindahan alamnya, tetapi juga memiliki potensi besar dalam pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Melalui pemanfaatan sumber daya lokal dan kearifan tradisional, Dusun Karanglor memiliki peluang yang sangat menjanjikan untuk memajukan perekonomian lokalnya.t yang ramah, tetapi juga menawarkan berbagai peluang yang melimpah.</p>
+                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu, sebuah dusun yang terletak di tepi perbukitan Gunung Kidul, tidak hanya menarik dengan keindahan alamnya, tetapi juga memiliki potensi besar dalam pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Melalui pemanfaatan sumber daya lokal dan kearifan tradisional, Dusun Sumberwungu memiliki peluang yang sangat menjanjikan untuk memajukan perekonomian lokalnya.t yang ramah, tetapi juga menawarkan berbagai peluang yang melimpah.</p>
                 <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]">Baca selengkapnya</Link>
             </div>
-            <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
-                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Karanglor menyimpan kekayaan budaya yang luar biasa, mulai dari tradisi seni hingga upacara adat yang diwariskan secara turun-temurun. Dengan pengembangan sektor kebudayaan, dusun ini memiliki potensi besar untuk menarik minat wisatawan yang ingin mengeksplorasi keunikan budaya lokal. Homestay yang akan dibangun di Karanglor juga akan menjadi sarana bagi para pengunjung untuk merasakan langsung kehidupan budaya sehari-hari, memberikan pengalaman yang mendalam dan otentik. Inisiatif ini diharapkan dapat melestarikan tradisi sekaligus memberikan kontribusi signifikan pada perekonomian setempat.</p>
+            {/* <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
+                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu menyimpan kekayaan budaya yang luar biasa, mulai dari tradisi seni hingga upacara adat yang diwariskan secara turun-temurun. Dengan pengembangan sektor kebudayaan, dusun ini memiliki potensi besar untuk menarik minat wisatawan yang ingin mengeksplorasi keunikan budaya lokal. Inisiatif ini diharapkan dapat melestarikan tradisi sekaligus memberikan kontribusi signifikan pada perekonomian setempat.</p>
                 <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]"> Baca Selengkapnya</Link>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
@@ -185,7 +186,7 @@ function Body() {
       <div className='justify-center mx-14'>
         <h1 className='flex justify-center font-bold mt-16 md:mt-24 mb-12 md:mb-18` text-2xl md:text-3xl my-5 gap-3'>DETAIL LOKASI <img src={Lokasi} alt="" className="h-10 flex justify-center"/></h1>       
               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4208.628831995166!2d110.71234053446065!3d-8.148528756483655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bc7dc08348e55%3A0x103a8fa8403692f6!2sBalai%20Padukuhan%20Karanglor!5e0!3m2!1sid!2sid!4v1721350570475!5m2!1sid!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9798167078175!2d110.6627817101108!3d-8.103536881027658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bb7826fcfdda1%3A0x5499533f4252c510!2sBalai%20Desa%20Wunut!5e0!3m2!1sid!2sid!4v1733064645610!5m2!1sid!2sid"
                   className="w-full h-[250px] lg:h-[1000px] border rounded-lg"
                   allowFullScreen=""
                   loading="lazy"
@@ -215,11 +216,11 @@ function Body() {
           </Link>
           <div className="p-5">
             <Link to="/pariwisata">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Pariwisata - Wildan's Homestay Karanglor</h5>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight">Pariwisata</h5>
             </Link>
               
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              Jika Anda ingin menikmati liburan yang tenang dan jauh dari hiruk pikuk kota, Wildan's Homestay di Dusun Karanglor adalah pilihan sempurna...
+              kalo ada nanti di isi
             </p>
             <Link to="/pariwisata" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148]  dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
             Baca selengkapnya
@@ -255,9 +256,9 @@ function Body() {
             </Link>
             
             <div className="p-5">
-              <Link to=''><h5 className="mb-2 text-2xl font-bold tracking-tight">Kebudayaan Leluhur-Jathilan</h5></Link>
+              <Link to=''><h5 className="mb-2 text-2xl font-bold tracking-tight">Kebudayaan Reok</h5></Link>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              Jathilan di Karanglor adalah warisan budaya yang memadukan tari tradisional dengan semangat kebersamaan. Melalui gerakan energik dan iringan musik gamelan, Jathilan mencerminkan kearifan lokal serta kekuatan gotong royong masyarakat dalam melestarikan tradisi.
+              Deskripsi singkat tentang reok
               </p>
               <Link to='/berita' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
               Baca selengkapnya
