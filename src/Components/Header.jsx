@@ -32,9 +32,9 @@ const Header = () => {
   return (
     <>
       <div className="fixed top-2 left-0 right-0 grid w-full grid-cols-4 md:grid-cols-5 lg:grid-cols-6 h-10 md:h-30 lg:h-33 z-50">
-          <div className="md:max-h-30 lg:max-h-30 col-span-3 md:col-span-4 lg:col-span-5 grid grid-cols-5 md:grid-cols-6 lg:grid-cols-10 rounded-2xl bg-[#7DA148] text-white dark:bg-gray-800 drop-shadow-md">
+          <div className="md:max-h-30 lg:max-h-30 col-span-3 md:col-span-4 lg:col-span-5 grid grid-cols-5 md:grid-cols-6 lg:grid-cols-10 rounded-2xl bg-[#31473A] text-white dark:bg-gray-800 drop-shadow-md">
         
-            <div className="md:max-h-30 lg:max-h-30 md:p-5 lg:p-5 col-span-4 md:col-span-3 lg:col-span-3 rounded-tr-full bg-white dark:bg-gray-700 text-[#7DA148] flex items-center">
+            <div className="md:max-h-30 lg:max-h-30 md:p-5 lg:p-5 col-span-4 md:col-span-3 lg:col-span-3 rounded-tr-full bg-white dark:bg-gray-700 text-[#7C8363] flex items-center">
             <Link to="/">
               <img src={logoDesa} alt="Logo" className="w-10 md:w-20 lg:w-24" />
             </Link>
@@ -46,26 +46,26 @@ const Header = () => {
 
             <div className="hidden xl:flex xl:col-span-6 justify-center items-center gap-6 px-4">
               {/* Menu with Traditional Touch */}
-              <Link to="/" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Beranda <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦧꦼꦫꦤ꧀ꦝ</span>
+              <Link to="/" className="text-xl md:text-2xl font-medium text-white hover:text-[#91B187] dark:hover:text-gray-200">
+                Beranda <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦧꦼꦫꦤ꧀ꦝ</span>
               </Link>
               <Link to="/profil" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Profil <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦥꦿꦺꦴꦥ꦳ꦶꦭ꧀</span>
+                Profil <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦥꦿꦺꦴꦥ꦳ꦶꦭ꧀</span>
               </Link>
               <Link to="/berita" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Berita <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦧꦼꦫꦶꦠ</span>
+                Berita <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦧꦼꦫꦶꦠ</span>
               </Link>
               <Link to="/kegiatan" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Kegiatan <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦏꦼꦒꦶꦪꦠꦤ꧀</span>
+                Kegiatan <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦏꦼꦒꦶꦪꦠꦤ꧀</span>
               </Link>
               <Link to="/galeri" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Galeri <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦒꦊꦫꦶ</span>
+                Galeri <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦒꦊꦫꦶ</span>
               </Link>
               <Link to="/faq" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                Pertanyaan <span className="block text-lg font-light dark:text-[#801C1C] text-[#A7CA73]">ꦥꦼꦂꦠꦚꦄꦤ꧀</span>
+                Pertanyaan <span className="block text-lg font-light dark:text-[#801C1C] text-[#a8c66c]">ꦥꦼꦂꦠꦚꦄꦤ꧀</span>
               </Link>
               <Link to="/kkn" className="text-xl md:text-2xl font-medium text-white hover:text-[#A7CA73] dark:hover:text-gray-200">
-                KKN UAJY 86 <span className="block text-sm font-light dark:text-[#801C1C] text-[#A7CA73]">ꦏꦸꦭꦶꦪꦃꦏꦼꦂꦗꦚꦠ</span>
+                KKN UAJY 86 <span className="block text-sm font-light dark:text-[#801C1C] text-[#a8c66c]">ꦏꦸꦭꦶꦪꦃꦏꦼꦂꦗꦚꦠ</span>
               </Link>
             </div>
           </div>

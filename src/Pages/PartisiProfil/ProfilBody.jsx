@@ -30,10 +30,10 @@ function Body() {
       <div className='container mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
       {isHeaderVisible && (
         <div className='text-black dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 m-5 p-3 border rounded-md bg-white bg-opacity-80'>
-          <h1 className='text-2xl md:text-2xl font-semibold'>Menelusuri Jejak Sejarah Dusun Karanglor</h1>
+          <h1 className='text-2xl md:text-2xl font-semibold'>Menelusuri Jejak Sejarah Dusun Sumberwungu</h1>
           <div className='mx-3 mt-5'>          
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
-              Hai sobat pengunjung Dusun Karang Lor Virtual! Siapa yang siap untuk perjalanan waktu? Kali ini, Kelompok 13 KKN 85 UAJY mengajak kalian semua untuk mengenal lebih dekat Dusun Karanglor—sebuah dusun kecil di Girisubo, Gunung Kidul, yang kaya akan sejarah dan tradisi. Yuk, kita mulai petualangan kita dengan menggali cerita-cerita menarik dari masa lalu!
+              Kelompok 35 KKN 86 UAJY "sejarah desa"
             </p>
           </div>
 
@@ -44,7 +44,7 @@ function Body() {
               alt="Logo Desa"
               className="object-contain w-5 mb-1"
             />
-            <p>Karanglor</p>
+            <p>Sumberwungu</p>
           </div>
 
           <div className="flex flex-col items-center col-span-1">
@@ -53,7 +53,7 @@ function Body() {
               alt="Logo KKN"
               className="object-contain w-8 mb-1"
             />
-            <p>KKN 85 UAJY</p>
+            <p>KKN 86 UAJY</p>
           </div>
           
           <div className="flex flex-col items-center col-span-1">
@@ -75,19 +75,19 @@ function Body() {
           <div className='flex flex-col items-center'>
             <h1 className='text-xl md:text-2xl font-semibold text-center mb-3 md:mb-6 lg:mb-8'>Geografis Tempuh</h1>
             <ul className="list-disc list-inside font-reg text-sm md:text-md lg:text-lg text-justify px-7">
-              <li>Terletak di Kecamatan Girisubo, Kabupaten Gunung Kidul.</li>
-              <li>Akses Utama Jalan: Jalan Wonogiri & Jalur Lintas Selatan</li>
-              <li>Estimasi waktu tempuh <strong>(Kota Yogyakarta)</strong> : <strong> -+ 2.5 Jam/Motor dan -+3 Jam/Mobil.</strong></li>
-              <li>Estimasi waktu tempuh <strong>(Kota Wonosari)</strong>: <strong>-+ 45 Menit/Motor dan -+ 1 Jam/Mobil.</strong> </li>
-              <li>Estimasi waktu tempuh <strong>(Kota Wonogiri)</strong> : <strong>-+ 1 Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li>
-              <li>Estimasi waktu tempuh <strong>(Kota Pacitan)</strong> : <strong>-+ 1 Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li>
+              <li>Terletak di Kecamatan idk, Kabupaten Gunung Kidul.</li>
+              <li>Akses Utama Jalan: Jalan idk & Jalur Lintas idk juga</li>
+              <li>Estimasi waktu tempuh <strong>(Kota Yogyakarta)</strong> : <strong> -+ 1.5 Jam/Motor dan -+2 Jam/Mobil.</strong></li>
+              <li>Estimasi waktu tempuh <strong>(Kota Wonosari)</strong>: <strong>-+ entah Menit/Motor dan -+ entah Jam/Mobil.</strong> </li>
+              {/* <li>Estimasi waktu tempuh <strong>(Kota Wonogiri)</strong> : <strong>-+ entah Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li>
+              <li>Estimasi waktu tempuh <strong>(Kota Pacitan)</strong> : <strong>-+ 1 Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li> */}
             </ul>
           </div>
          
           <div className="flex flex-col items-center">
             <img
               src={maps}
-              alt="Sejarah Karanglor"
+              alt="Sejarah Sumberwungu"
               className="object-cover rounded-lg aspect-square w-3/4 md:w-full cursor-pointer "
               onClick={() => handleImageClick(maps)}
             />
@@ -114,7 +114,7 @@ function Body() {
           </div>
           <div>
             <p className="text-sm md:text-md lg:text-lg font-reg text-justify px-7">
-              Karanglor mungkin terlihat seperti desa kecil yang tenang, tapi jangan salah—dusun ini menyimpan banyak cerita dari masa lalu. Terletak di wilayah karst yang unik, Karanglor sudah ada sejak zaman dulu kala. Desa ini pertama kali dihuni oleh sepasang suami istri petani tangguh yang berjuang melawan kerasnya tanah berbatu untuk menanam padi, jagung, dan tanaman lain. Walaupun tantangan alamnya cukup berat, semangat pantang menyerah mereka menjadikan Karanglor tetap berdiri kokoh, hingga sekarang dihuni lebih dari 300 penduduknya yang senantiasa ramah dan menjunjung tinggi nilai tradisi lokal.
+              Cerita sedikit tentang tanah Sumberwungu
             </p>
           </div>
         </div>
@@ -124,7 +124,7 @@ function Body() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify px-7'>
-              Masyarakat Karanglor adalah penjaga tradisi yang luar biasa! Di sini, budaya gotong royong bukan sekadar kata-kata, tapi sudah menjadi gaya hidup sehari-hari. Mereka masih merayakan berbagai upacara adat dengan penuh semangat, seperti slametan desa, yang menghubungkan mereka dengan leluhur dan alam sekitar. Tari-tarian tradisional, musik gamelan, dan ritual keagamaan masih sering kita jumpai di setiap sudut dusun, mengingatkan kita betapa pentingnya menjaga warisan budaya.
+              Tradisi Di Sumberwungu
             </p>
           </div>
           <div className="flex flex-col items-center">
@@ -152,15 +152,15 @@ function Body() {
           </div>
           <div>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify px-7'>
-              Seiring berjalannya waktu, Karanglor tak hanya bertahan, tapi juga berkembang dengan penuh optimisme. Setelah Indonesia merdeka, dusun ini mengalami banyak perubahan positif. Jalan-jalan mulai dibangun, sekolah dan puskesmas hadir untuk melayani warga, dan berbagai program desa terus diupayakan untuk meningkatkan kesejahteraan masyarakat. Meskipun begitu, warga Karanglor tetap setia pada prinsip mereka: menjaga keseimbangan antara perkembangan dan pelestarian lingkungan serta budaya. Baca Selengkapnya di Website Resmi Desa Jepitu.
+              Sedikit kata motivasi :v
             </p>
           </div>
         </div>
       </div>
 
       <div className='flex items-center justify-center text-black p-8 border dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
-        <Link to="https://desajepitu.my.id/" class="inline-flex items-center px-8 py-4 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200" target="_blank" rel="noopener noreferrer">
-          <p className='text-2xl font-semibold'>WEBSITE DESA JEPITU</p>
+        <Link to="https://desasumberwungu.gunungkidulkab.go.id/first/" class="inline-flex items-center px-8 py-4 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200" target="_blank" rel="noopener noreferrer">
+          <p className='text-2xl font-semibold'>WEBSITE DESA SUMBERWUNGU</p>
         </Link>
       </div>
 

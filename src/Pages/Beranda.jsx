@@ -21,7 +21,7 @@ function Beranda() {
 
   return (
     <>
-     <div className="w-full bg-white dark:bg-gray-900">
+     <div className="w-full bg-white dark:bg-orange-500">
         <Intro />
         <Body />
       </div>

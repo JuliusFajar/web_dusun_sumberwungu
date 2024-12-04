@@ -56,3 +56,7 @@
 .swiper-pagination-bullet-active {
   @apply bg-[#7DA148] /* Custom orange color for active pagination */
 }
+
+.custom-background {
+  background-color: #808000; /* Ganti dengan warna yang diinginkan */
+}

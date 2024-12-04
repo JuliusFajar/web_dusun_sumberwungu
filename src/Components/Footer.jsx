@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className='bg-[#7DA148] text-center p-4 text-white dark:bg-gray-800'>
+    <div className='bg-[#31473A] text-center p-4 text-white dark:bg-gray-800'>
       <h1 className='text-3xl font-bold'>DUSUN Sumberwungu</h1>
       <p className='mt-2 font-light text-xs md:text-md px-20 md:px-52'>
         Sumberwungu adalah dusun yang tenang dan harmonis di pesisir Gunung Kidul. Terkenal karena kerukunan warganya, semangat gotong royong yang kuat, dan suasana pedesaan yang penuh kedamaian. Datanglah dan rasakan kehangatan kerukunan yang murni di setiap sudutnya.

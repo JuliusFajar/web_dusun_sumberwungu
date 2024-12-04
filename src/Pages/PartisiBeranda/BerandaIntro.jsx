@@ -55,7 +55,7 @@ const Intro = () => {
           transition={{ duration: 0.5 }}
           className="text-white text-left"
         >
-          <p className="text-xs md:text-lg lg:text-2xl max-w-2xl font-light dark:text-[#801C1C] text-[#A7CA73]">ꦏꦼꦩꦼꦒꦲꦤ꧀ꦱꦼꦣꦼꦂꦲꦤ</p>
+          <p className="text-xs md:text-lg lg:text-2xl max-w-2xl font-light dark:text-[#a8c66c] text-[#a8c66c]">ꦏꦼꦩꦼꦒꦲꦤ꧀ꦱꦼꦣꦼꦂꦲꦤ</p>
           <h3 className="text-2xl md:text-3xl lg:text-5xl font-semibold">Kemegahan Sederhana,</h3>
           <h3 className="text-2xl md:text-3xl lg:text-5xl font-semibold">Kebahagiaan Murni</h3>
           <p className="text-xs md:text-lg lg:text-2xl max-w-2xl font-light dark:text-[#801C1C] text-[#A7CA73]">ꦏꦼꦧꦲꦒꦶꦪꦄꦤ꧀ꦩꦸꦂꦤꦶ</p>

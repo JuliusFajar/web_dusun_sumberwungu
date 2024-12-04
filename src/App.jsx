@@ -48,7 +48,7 @@ function App() {
         <title>Dusun Sumberwungu</title>
         <link rel="canonical" href="Link Hosting" />
       </Helmet>
-      <div className='dark:bg-red-900'>
+      <div className='bg-white-200'>
       <Header />
       <Routes>
         <Route path="/" element={<Beranda />} />
