@@ -276,9 +276,9 @@ function Body() {
               /></Link>
             
             <div className="p-5">
-            <Link to='/kkn'>  <h5 className="mb-2 text-2xl font-bold tracking-tight">Mengenal Mahasiswa KKN 85 UAJY</h5></Link>
+            <Link to='/kkn'>  <h5 className="mb-2 text-2xl font-bold tracking-tight">Mengenal Mahasiswa KKN 86 UAJY</h5></Link>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-                Kami, anak-anak KKN 85 Universitas Atma Jaya Yogyakarta, hadir untuk berkolaborasi dengan masyarakat dalam membangun desa yang lebih baik. Dengan semangat kebersamaan, kami berkomitmen untuk berkontribusi dalam berbagai kegiatan, mulai dari pemberdayaan ekonomi hingga pendidikan anak-anak. Bersama-sama, mari kita wujudkan desa yang sejahtera dan berkelanjutan.
+                Kami, anak-anak KKN 86 Universitas Atma Jaya Yogyakarta, hadir untuk berkolaborasi dengan masyarakat dalam membangun desa yang lebih baik. Dengan semangat kebersamaan, kami berkomitmen untuk berkontribusi dalam berbagai kegiatan, mulai dari pemberdayaan ekonomi hingga pendidikan anak-anak. Bersama-sama, mari kita wujudkan desa yang sejahtera dan berkelanjutan.
               </p>
               <Link to='/kkn' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">Baca selengkapnya
                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
