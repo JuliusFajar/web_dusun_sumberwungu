@@ -24,7 +24,7 @@ function Body() {
             </div>
             <div className="flex flex-col items-center col-span-2 md:col-span-1">
               <img src={calendar} alt="Calendar" className="w-5 mb-1" />
-              <p>Senin, 22 Juli 2024</p>
+              <p>Senin, 13 Januari 2025</p>
             </div>
           </div>
 

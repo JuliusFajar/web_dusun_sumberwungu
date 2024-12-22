@@ -30,7 +30,7 @@ function Body() {
               alt="Logo KKN"
               className="object-contain w-8 mb-1"
             />
-            <p>KKN 85 UAJY</p>
+            <p>KKN 86 UAJY</p>
           </div>
           
           <div className="flex flex-col items-center col-span-1">

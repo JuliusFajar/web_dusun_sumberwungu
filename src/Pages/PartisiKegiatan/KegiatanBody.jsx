@@ -71,7 +71,7 @@ function Body() {
               alt="Calendar"
               className="w-5 mb-1"
             />
-            <p>Senin, 22 Juli 2024</p>
+            <p>Senin, 13 Januari 2025</p>
           </div>
           </div>
           
@@ -222,8 +222,6 @@ function Body() {
             </div>
         </div>
 
-
-        
       </div>
 
       {isFullscreen && (
