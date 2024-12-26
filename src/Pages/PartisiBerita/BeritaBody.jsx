@@ -33,7 +33,7 @@ function Body() {
       <div className='container  mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
         {isHeaderVisible && (
           <div className='text-black dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 m-5 p-3 border rounded-md bg-white bg-opacity-80'>
-            <h1 className='text-2xl md:text-3xl font-semibold'>Keajaiban Budaya di Dusun Karanglor: Perayaan Budaya Jathilan serta Makna Gotong Royong</h1>
+            <h1 className='text-2xl md:text-3xl font-semibold'>Keajaiban Budaya di Dusun Sumberwungu: Perayaan Budaya Jathilan serta Makna Gotong Royong</h1>
             <div className="py-2 md:w-15 grid grid-cols-3 gap-2 text-xs font-light border-b-2 mx-4 my-5 place-items-center">
               <div className="flex flex-col items-center col-span-1">
                 <img
@@ -41,7 +41,7 @@ function Body() {
                   alt="Logo Desa"
                   className="object-contain w-5 mb-1"
                 />
-                <p>Karanglor</p>
+                <p>Sumberwungu</p>
               </div>
 
               <div className="flex flex-col items-center col-span-1">
@@ -50,7 +50,7 @@ function Body() {
                   alt="Logo KKN"
                   className="object-contain w-8 mb-1"
                 />
-                <p>KKN 85 UAJY</p>
+                <p>KKN 86 UAJY</p>
               </div>
 
               <div className="flex flex-col items-center col-span-1">
@@ -65,7 +65,7 @@ function Body() {
 
             <div className='mx-3 mt-5'>
               <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
-                Halo sobat virtual sekalian! Selamat datang di cerita yang penuh makna tentang pelestarian budaya lokal, yaitu pagelaran Jathilan di Dusun Karanglor. Kami, anak-anak KKN 85 UAJY Kelompok 13, berkesempatan menjadi bagian dari momen istimewa ini, di mana semangat gotong royong masyarakat bersatu untuk menjaga tradisi leluhur. Dari gemuruh musik tradisional hingga gerakan tari yang penuh energi, pagelaran ini bukan hanya hiburan, tetapi wujud nyata cinta warga dusun terhadap budaya mereka. Mari simak lebih lanjut dan rasakan kekuatan kebersamaan serta warisan budaya yang terus hidup di tengah kita!
+                Halo sobat virtual sekalian! Selamat datang di cerita yang penuh makna tentang pelestarian budaya lokal, yaitu pagelaran Jathilan di Desa Sumberwungu. Kami, anak-anak KKN 86 UAJY Kelompok 35, berkesempatan menjadi bagian dari momen istimewa ini, di mana semangat gotong royong masyarakat bersatu untuk menjaga tradisi leluhur. Dari gemuruh musik tradisional hingga gerakan tari yang penuh energi, pagelaran ini bukan hanya hiburan, tetapi wujud nyata cinta warga dusun terhadap budaya mereka. Mari simak lebih lanjut dan rasakan kekuatan kebersamaan serta warisan budaya yang terus hidup di tengah kita!
               </p>
             </div>
           </div>

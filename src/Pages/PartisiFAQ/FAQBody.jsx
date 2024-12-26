@@ -44,7 +44,7 @@ function Body() {
           </div>
           
           <p className='text-sm md:text-md lg:text-lg font-light mt-4 mx-2 text-justify'>
-          Halo Sobat, berjumpa kita di halaman Pertanyaan seputar informasi mengenai Dusun Karanglor. Selamat datang di halaman FAQ dan Bantuan Sistem Informasi Dusun. Di sini, Anda dapat menemukan jawaban atas pertanyaan umum dan panduan penggunaan untuk membantu Anda menjelajahi website kami. Jika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui halaman Kontak. Kami siap membantu memastikan Anda mendapatkan informasi yang Anda butuhkan dengan mudah dan cepat.
+          Halo Sobat, berjumpa kita di halaman Pertanyaan seputar informasi mengenai Desa Sumberwungu. Selamat datang di halaman FAQ dan Bantuan Sistem Informasi Dusun. Di sini, Anda dapat menemukan jawaban atas pertanyaan umum dan panduan penggunaan untuk membantu Anda menjelajahi website kami. Jika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui halaman Kontak. Kami siap membantu memastikan Anda mendapatkan informasi yang Anda butuhkan dengan mudah dan cepat.
           </p>
           <div id="disqus_thread" className='mt-10'></div>
         </div>

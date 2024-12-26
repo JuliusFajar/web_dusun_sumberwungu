@@ -30,7 +30,7 @@ function Body() {
       <div className='container mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
       {isHeaderVisible && (
         <div className='text-black dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 m-5 p-3 border rounded-md bg-white bg-opacity-80'>
-          <h1 className='text-2xl md:text-2xl font-semibold'>Menelusuri Jejak Sejarah Dusun Sumberwungu</h1>
+          <h1 className='text-2xl md:text-2xl font-semibold'>Menelusuri Jejak Sejarah Desa Sumberwungu</h1>
           <div className='mx-3 mt-5'>          
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
               Kelompok 35 KKN 86 UAJY "sejarah desa"
@@ -75,7 +75,7 @@ function Body() {
           <div className='flex flex-col items-center'>
             <h1 className='text-xl md:text-2xl font-semibold text-center mb-3 md:mb-6 lg:mb-8'>Geografis Tempuh</h1>
             <ul className="list-disc list-inside font-reg text-sm md:text-md lg:text-lg text-justify px-7">
-              <li>Terletak di Kecamatan idk, Kabupaten Gunung Kidul.</li>
+              <li>Terletak di Kecamatan Tepus, Kabupaten Gunung Kidul.</li>
               <li>Akses Utama Jalan: Jalan idk & Jalur Lintas idk juga</li>
               <li>Estimasi waktu tempuh <strong>(Kota Yogyakarta)</strong> : <strong> -+ 1.5 Jam/Motor dan -+2 Jam/Mobil.</strong></li>
               <li>Estimasi waktu tempuh <strong>(Kota Wonosari)</strong>: <strong>-+ entah Menit/Motor dan -+ entah Jam/Mobil.</strong> </li>

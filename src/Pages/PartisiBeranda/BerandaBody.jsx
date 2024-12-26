@@ -50,9 +50,9 @@ function Body() {
        <div className="text-black dark:text-white m-5 p-2 border border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80 dark:bg-gray-800 w-full max-w-[90rem]">
       {isHeaderVisible && (
         <div className='text-black m-5 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-800 dark:text-white bg-opacity-80 p-4 md:p-10'>
-          <h1 className='text-2xl md:text-3xl font-bold'>Selamat Datang di Dusun Sumberwungu</h1>
+          <h1 className='text-2xl md:text-3xl font-bold'>Selamat Datang di Desa Sumberwungu</h1>
           <p className='text-sm md:text-md font-light mt-2 text-justify mb-5'>
-          Selamat datang di Dusun Sumberwungu, tempat di mana kebersamaan adalah fondasi kehidupan. Lebih dari sekadar tempat tinggal, Wunut adalah rumah bagi jiwa-jiwa yang saling terikat dalam semangat gotong royong dan kekeluargaan. Di sini, kami percaya bahwa kebahagiaan sejati tumbuh dari kebersamaan, di mana setiap warga saling mendukung, menginspirasi, dan membantu satu sama lain. Dalam setiap langkah kecil, terselip harapan besar untuk masa depan yang lebih baik melalui harmoni dan solidaritas antar warga.
+          Selamat datang di Desa Sumberwungu, tempat di mana kebersamaan adalah fondasi kehidupan. Lebih dari sekadar tempat tinggal, Wunut adalah rumah bagi jiwa-jiwa yang saling terikat dalam semangat gotong royong dan kekeluargaan. Di sini, kami percaya bahwa kebahagiaan sejati tumbuh dari kebersamaan, di mana setiap warga saling mendukung, menginspirasi, dan membantu satu sama lain. Dalam setiap langkah kecil, terselip harapan besar untuk masa depan yang lebih baik melalui harmoni dan solidaritas antar warga.
           </p>
 
           <div>
@@ -75,7 +75,7 @@ function Body() {
 
           <h1 className='text-2xl md:text-3xl font-bold mt-10'>Sekilas Mengenai Sumberwungu</h1>
           <p className='text-sm md:text-md font-light mt-2 text-justify'>
-          Dusun Sumberwungu, yang terletak di Desa Wunut, Kecamatan Tepus, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta, merupakan sebuah dusun yang menyimpan potensi besar di berbagai bidang. Didukung oleh semangat gotong royong yang kuat dan kebersamaan yang terjalin erat antar warga, dusun ini terus berupaya untuk berkembang secara berkelanjutan. Dengan memanfaatkan sumber daya yang ada, serta inovasi yang lahir dari kerja sama warga, Dusun Sumberwungu diharapkan mampu meningkatkan kesejahteraan masyarakatnya, membuka peluang baru, dan menciptakan perubahan positif bagi generasi mendatang.
+          dusun wunut yang terletak di desa sumberwungu, Kecamatan Tepus, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta, merupakan sebuah dusun yang menyimpan potensi besar di berbagai bidang. Didukung oleh semangat gotong royong yang kuat dan kebersamaan yang terjalin erat antar warga, dusun ini terus berupaya untuk berkembang secara berkelanjutan. Dengan memanfaatkan sumber daya yang ada, serta inovasi yang lahir dari kerja sama warga, Dusun Sumberwungu diharapkan mampu meningkatkan kesejahteraan masyarakatnya, membuka peluang baru, dan menciptakan perubahan positif bagi generasi mendatang.
           </p>
           
           <div className='p-3'>
@@ -134,7 +134,7 @@ function Body() {
             </div> */}
             
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'micro-enterprise' ? '' : 'hidden'}`} id="micro-enterprise" role="tabpanel" aria-labelledby="micro-enterprise-tab">
-                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu, sebuah dusun yang terletak di tepi perbukitan Gunung Kidul, tidak hanya menarik dengan keindahan alamnya, tetapi juga memiliki potensi besar dalam pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Melalui pemanfaatan sumber daya lokal dan kearifan tradisional, Dusun Sumberwungu memiliki peluang yang sangat menjanjikan untuk memajukan perekonomian lokalnya.t yang ramah, tetapi juga menawarkan berbagai peluang yang melimpah.</p>
+                <p className="text-sm md:text-md text-black text-justify dark:text-white">Desa Sumberwungu, sebuah desa yang terletak di tepi perbukitan Gunung Kidul, tidak hanya menarik dengan keindahan alamnya, tetapi juga memiliki potensi besar dalam pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Melalui pemanfaatan sumber daya lokal dan kearifan tradisional, Desa Sumberwungu memiliki peluang yang sangat menjanjikan untuk memajukan perekonomian lokalnya.t yang ramah, tetapi juga menawarkan berbagai peluang yang melimpah.</p>
                 <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#31473A]">Baca selengkapnya</Link>
             </div>
             {/* <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
@@ -166,12 +166,12 @@ function Body() {
               className="text-white text-center"
             >
            <h1 className="hidden md:block lg:text-3xl">
-            Mari kenali lebih dalam tentang Dusun Sumberwungu, di mana kesederhanaan menjadi kekuatan, dan kebahagiaan adalah milik semua.
+            Mari kenali lebih dalam tentang Desa Sumberwungu, di mana kesederhanaan menjadi kekuatan, dan kebahagiaan adalah milik semua.
           </h1>
 
           {/* Text for medium screens */}
           <h1 className="hidden sm:block md:hidden text-md sm:text-xl">
-            Jelajahi Dusun Sumberwungu yang penuh keindahan dan kebersamaan.
+            Jelajahi Desa Sumberwungu yang penuh keindahan dan kebersamaan.
           </h1>
 
           {/* Text for small screens */}
@@ -237,9 +237,9 @@ function Body() {
             </Link>
         
             <div className="p-5">
-              <Link to="/kegiatan"><h5 className="mb-2 text-2xl font-bold tracking-tight">UMKM - Kerajinan Rajut Sumberwungu</h5></Link>
+              <Link to="/kegiatan"><h5 className="mb-2 text-2xl font-bold tracking-tight">UMKM - Kerajinan Rajut Wunut</h5></Link>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              KKN 86 Universitas Atma Jaya Yogyakarta berkomitmen membantu UMKM di Dusun Sumberwungu berkembang lebih jauh dengan program Pendampingan Migrasi ke E-Commerce...
+              KKN 86 Universitas Atma Jaya Yogyakarta berkomitmen membantu UMKM di Wunut berkembang lebih jauh dengan program Pendampingan Migrasi ke E-Commerce...
               </p>
               <Link to="/kegiata " className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
                 Baca selengkapnya

@@ -37,7 +37,7 @@ function Body() {
           <div className='mx-3 mt-5'>          
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
              
-                Selamat datang di Wildan's Homestay, destinasi penginapan terbaru di Dusun Karanglor, Desa Jepitu. Terletak di tengah-tengah keindahan alam Gunung Kidul yang asri, homestay ini menawarkan pengalaman menginap yang nyaman dan damai, jauh dari hiruk pikuk kota. Cocok bagi Anda yang ingin merasakan suasana pedesaan yang tenang, sembari menikmati keramahan lokal dan keindahan budaya sekitar, serta dengan kawasannya yang strategis dekat dengan objek wisata <strong className='font-bold'>Pantai Jungwok</strong> dan <strong className='font-bold'>Pantai Wediombo</strong> m
+                Selamat datang di Wildan's Homestay, destinasi penginapan terbaru di Desa sumberwungu, Desa Jepitu. Terletak di tengah-tengah keindahan alam Gunung Kidul yang asri, homestay ini menawarkan pengalaman menginap yang nyaman dan damai, jauh dari hiruk pikuk kota. Cocok bagi Anda yang ingin merasakan suasana pedesaan yang tenang, sembari menikmati keramahan lokal dan keindahan budaya sekitar, serta dengan kawasannya yang strategis dekat dengan objek wisata <strong className='font-bold'>Pantai Jungwok</strong> dan <strong className='font-bold'>Pantai Wediombo</strong> m
                 enjadikan tempat ini menjadi destinasi yang pas bagi Anda.
                 
             </p>

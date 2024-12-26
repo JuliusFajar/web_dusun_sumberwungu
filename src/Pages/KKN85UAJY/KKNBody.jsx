@@ -42,7 +42,7 @@ function Body() {
             ></InstagramEmbed>
           </div>
 
-          {/* Instagram Embeds */}
+          {/* Instagram Embeds
           <div className="my-10 w-full">
             <InstagramEmbed
               width="560"
@@ -54,7 +54,7 @@ function Body() {
               allowFullScreen
               className="w-full h-auto md:h-auto rounded-md"
             ></InstagramEmbed>
-          </div>
+          </div> */}
 
           {/* Other Instagram Embeds */}
           <div className="my-10 w-full">

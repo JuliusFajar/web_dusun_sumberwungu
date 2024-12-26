@@ -45,7 +45,7 @@ function Body() {
          <div className='container mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
       {isHeaderVisible && (
         <div className='text-black m-5 p-2 border dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
-          <h1 className='text-2xl font-semibold'>Merangkai Kebersamaan di Dusun Sumberwungu: KKN 86 UAJY</h1>
+          <h1 className='text-2xl font-semibold'>Merangkai Kebersamaan di Desa Sumberwungu: KKN 86 UAJY</h1>
           <div className="py-2 md:w-15 grid grid-cols-3 gap-2 text-xs font-light border-b-2 mx-4 my-5 place-items-center">
           <div className="flex flex-col items-center col-span-1">
             <img
@@ -76,10 +76,10 @@ function Body() {
           </div>
           
           <p className=' mx-3 mt-5 text-sm md:text-md lg:text-lg font-reg text-justify'>
-            Halo sobat virtual sekalian! Pada kesempatan kali ini, Kelompok 35 KKN 86 UAJY ingin mengajak Kita semua untuk menjelajahi kisah di dalam Dusun Sumberwungu tercinta kita. Bersama-sama, kita akan membahas mengenai Perjalanan KKN Universitas Atma Jaya Yogyakarta dalam memupuk kebersamaan, gotong royong, dan cinta di tengah masyarakat Dusun Sumberwungu.
+            Halo sobat virtual sekalian! Pada kesempatan kali ini, Kelompok 35 KKN 86 UAJY ingin mengajak Kita semua untuk menjelajahi kisah di dalam Desa Sumberwungu tercinta kita. Bersama-sama, kita akan membahas mengenai Perjalanan KKN Universitas Atma Jaya Yogyakarta dalam memupuk kebersamaan, gotong royong, dan cinta di tengah masyarakat Desa Sumberwungu.
           </p>
           <p className='text-sm md:text-md lg:text-lg font-light mx-3 mt-5 text-justify'>
-            Selama pelaksanaan KKN 86 Universitas Atma Jaya Yogyakarta di Dusun Sumberwungu dari 20 Desember hingga 20 Januari 2025, banyak kegiatan bermakna yang dilakukan bersama warga untuk memperkuat rasa kebersamaan dan menyongsong keberlanjutan dusun.
+            Selama pelaksanaan KKN 86 Universitas Atma Jaya Yogyakarta di Desa Sumberwungu dari 20 Desember hingga 20 Januari 2025, banyak kegiatan bermakna yang dilakukan bersama warga untuk memperkuat rasa kebersamaan dan menyongsong keberlanjutan dusun.
           </p>
         </div>
       )}
@@ -97,7 +97,7 @@ function Body() {
           </div>
           <div className='text-center'>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
-              Berbagai kegiatan selama KKN di Dusun Sumberwungu melibatkan warga dalam gotong royong. Mulai dari bimbel Bahasa Inggris, Pembuatan video profile pengenalan UMKM, hingga sosialisasi pentingnya bahaya phising. Semua kegiatan ini memperlihatkan semangat kebersamaan yang terjalin antara mahasiswa dan warga dusun.
+              Berbagai kegiatan selama KKN di Desa Sumberwungu melibatkan warga dalam gotong royong. Mulai dari bimbel Bahasa Inggris, Pembuatan video profile pengenalan UMKM, hingga sosialisasi pentingnya bahaya phising. Semua kegiatan ini memperlihatkan semangat kebersamaan yang terjalin antara mahasiswa dan warga dusun.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ function Body() {
             <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
 
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
-              KKN 86 Universitas Atma Jaya Yogyakarta, jelasin kegiatan selama pembuatan video profile umkm
+              KKN 86 Universitas Atma Jaya Yogyakarta, pada kesempatan kali ini anak-anak dari kelompok KKN 35 melakukan kegiatan dalam pembuatan video profile UMKM yang akan digunakan untuk promosi UMKM yang ada di desa Wunut
             </p>
             <Swiper
               spaceBetween={20}
@@ -146,7 +146,7 @@ function Body() {
             />
             <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
-            Program Bimbingan Belajar Anak yang diadakan oleh KKN 86 Universitas Atma Jaya Yogyakarta di Dusun Sumberwungu menjadi salah satu kegiatan yang dinanti-nanti oleh anak-anak. sama penjelasan lagi buat bimbel
+            Program Bimbingan Belajar anak yang diadakan oleh KKN 86 Universitas Atma Jaya Yogyakarta di Desa Sumberwungu menjadi salah satu kegiatan yang dinanti-nanti oleh anak-anak. Bimbingan Bahasa inggris ini dilakukan seminggu sekali dimulai pada tanggal 26 Desember 2024, di balai dusun Wunut. Antusias anak-anak sangat tinggi untuk belajar bahasa inggris yang di ajarkan oleh kakak-kakak KKN 86 
             </p>
             <Swiper
               spaceBetween={20}
@@ -175,7 +175,7 @@ function Body() {
             />
             <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
-            KKN 86 Universitas Atma Jaya Yogyakarta, penjelasan selama kegiatan sosialisasi
+            KKN 86 Universitas Atma Jaya Yogyakarta, Kegiatan sosialisai phising yang dilakukan oleh KKN 86 Kelompok 35 yang dilakukan pada tanggal 28 Desember 2024 di balai dusun Wunut
             </p>
             <Swiper
               spaceBetween={20}
@@ -204,7 +204,7 @@ function Body() {
             />
             <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
-            Penjelasan Selama kegiatan
+            Program bimbingan anak-anak untuk selalu menjaga kebersihan gigi dan cuci tangan dengan memberikan pembelajaran dalam mengosok gigi dan cuci tangan  yang baik, sangat di sambut baik oleh warga dan anak-anak, tidak hanya memberikan pembelajaran saja tetapi ada juga hadiah yang di berikan ke anak-anak seperti paket sikat gigi dan odol untuk selalu digunakan
             </p>
             <Swiper
               spaceBetween={20}

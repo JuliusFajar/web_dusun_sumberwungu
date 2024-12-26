@@ -59,7 +59,7 @@ const Intro = () => {
           <h3 className="text-2xl md:text-3xl lg:text-5xl font-semibold">Kemegahan Sederhana,</h3>
           <h3 className="text-2xl md:text-3xl lg:text-5xl font-semibold">Kebahagiaan Murni</h3>
           <p className="text-xs md:text-lg lg:text-2xl max-w-2xl font-light dark:text-[#801C1C] text-[#A7CA73]">ꦏꦼꦧꦲꦒꦶꦪꦄꦤ꧀ꦩꦸꦂꦤꦶ</p>
-          <p className="mt-4 text-xs md:text-lg lg:text-xl max-w-2xl font-light">Di tengah gemerlap modernisasi, Dusun Sumberwungu berdiri sebagai oase ketenangan yang penuh dengan kesederhanaan. Dusun ini adalah tempat dimana setiap hari adalah tentang  kerukunan dan keramah-tamahan.</p>
+          <p className="mt-4 text-xs md:text-lg lg:text-xl max-w-2xl font-light">Di tengah gemerlap modernisasi, Dusun Wunut berdiri sebagai oase ketenangan yang penuh dengan kesederhanaan. Dusun ini adalah tempat dimana setiap hari adalah tentang  kerukunan dan keramah-tamahan.</p>
         </motion.div>
       </div>
     </div>
