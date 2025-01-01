@@ -128,19 +128,19 @@ function Body() {
             </ul>
           </div>
           <div id="default-tab-content">
-            {/* <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900  ${activeTab === 'tourism' ? '' : 'hidden'}`} id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
+            <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900  ${activeTab === 'tourism' ? '' : 'hidden'}`} id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
                 <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu memiliki potensi pariwisata yang besar dengan keindahan alam dan budaya lokalnya.</p>
                 <Link to='/pariwisata' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]">Baca selengkapnya</Link>
-            </div> */}
+            </div>
             
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'micro-enterprise' ? '' : 'hidden'}`} id="micro-enterprise" role="tabpanel" aria-labelledby="micro-enterprise-tab">
                 <p className="text-sm md:text-md text-black text-justify dark:text-white">Desa Sumberwungu, sebuah desa yang terletak di tepi perbukitan Gunung Kidul, tidak hanya menarik dengan keindahan alamnya, tetapi juga memiliki potensi besar dalam pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Melalui pemanfaatan sumber daya lokal dan kearifan tradisional, Desa Sumberwungu memiliki peluang yang sangat menjanjikan untuk memajukan perekonomian lokalnya.t yang ramah, tetapi juga menawarkan berbagai peluang yang melimpah.</p>
                 <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#31473A]">Baca selengkapnya</Link>
             </div>
-            {/* <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
+            <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
                 <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu menyimpan kekayaan budaya yang luar biasa, mulai dari tradisi seni hingga upacara adat yang diwariskan secara turun-temurun. Dengan pengembangan sektor kebudayaan, dusun ini memiliki potensi besar untuk menarik minat wisatawan yang ingin mengeksplorasi keunikan budaya lokal. Inisiatif ini diharapkan dapat melestarikan tradisi sekaligus memberikan kontribusi signifikan pada perekonomian setempat.</p>
                 <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]"> Baca Selengkapnya</Link>
-            </div> */}
+            </div>
           </div>
         </div>
       )}

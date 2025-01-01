@@ -35,8 +35,8 @@ function Body() {
       <div className='container mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
      
         <div className='text-black m-5 p-6 border dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
-          <h1 className='text-2xl font-semibold'>Galeri Foto KKN 85 UAJY:</h1>
-          <h1 className='text-2xl font-semibold'>Momen Berharga di Dusun Karanglor</h1>
+          <h1 className='text-2xl font-semibold'>Galeri Foto KKN 86 UAJY:</h1>
+          <h1 className='text-2xl font-semibold'>Momen Berharga di Dusun Wunut</h1>
           <div className="py-2 md:w-15 grid grid-cols-3 gap-2 text-xs font-light border-b-2 mx-4 my-5 place-items-center">
           <div className="flex flex-col items-center col-span-1">
             <img
@@ -44,7 +44,7 @@ function Body() {
               alt="Logo Desa"
               className="object-contain w-5 mb-1"
             />
-            <p>Karanglor</p>
+            <p>Wunut</p>
           </div>
 
           <div className="flex flex-col items-center col-span-1">
@@ -53,7 +53,7 @@ function Body() {
               alt="Logo KKN"
               className="object-contain w-8 mb-1"
             />
-            <p>KKN 85 UAJY</p>
+            <p>KKN 86 UAJY</p>
           </div>
           
           <div className="flex flex-col items-center col-span-1">
@@ -68,7 +68,7 @@ function Body() {
           
           <div className='text-justify'>
           <p className='text-sm md:text-md lg:text-lg font-light mt-4 mx-auto'>
-          Selama pelaksanaan KKN 85 Universitas Atma Jaya Yogyakarta di Dusun Karanglor, banyak momen berharga yang berhasil diabadikan. Dalam Galeri Foto ini, kami sajikan rangkaian kegiatan penuh kenangan yang melibatkan mahasiswa KKN bersama masyarakat dusun. Setiap foto merekam kisah kebersamaan, kerja keras, serta keceriaan selama program berlangsung.
+          Selama pelaksanaan KKN 86 Universitas Atma Jaya Yogyakarta di Dusun Wunut, banyak momen berharga yang berhasil diabadikan. Dalam Galeri Foto ini, kami sajikan rangkaian kegiatan penuh kenangan yang melibatkan mahasiswa KKN bersama masyarakat dusun. Setiap foto merekam kisah kebersamaan, kerja keras, serta keceriaan selama program berlangsung.
           </p>
           <img
               src={landscape}
@@ -78,8 +78,8 @@ function Body() {
           />
            <p className="text-[#7DA148] dark:text-white text-xs font-light text-center">Tekan Gambar untuk Detail</p>
           <p className='text-sm md:text-md lg:text-lg font-light mt-7 mb-13'>
-          Lingkungan Alam Dusun Karanglor
-          Kehidupan alam Dusun Karanglor yang asri menjadi latar indah dalam setiap kegiatan KKN. Mulai dari panorama hijau ladang hingga hamparan sawah, semuanya memberikan nuansa ketenangan yang mendukung suasana kegiatan. Potret alam ini menjadi bukti kekayaan lingkungan yang kami jaga bersama warga dusun selama masa KKN.
+          Lingkungan Alam Dusun Wunut
+          Kehidupan alam Dusun Wunut yang asri menjadi latar indah dalam setiap kegiatan KKN. Mulai dari panorama hijau ladang hingga hamparan sawah, semuanya memberikan nuansa ketenangan yang mendukung suasana kegiatan. Potret alam ini menjadi bukti kekayaan lingkungan yang kami jaga bersama warga dusun selama masa KKN.
             </p>
             <img
               src={kumpul}
@@ -126,7 +126,7 @@ function Body() {
           Dokumentasi pelaksanaan program kerja seperti Senam Sehat untuk ibu-ibu PKK, Bimbingan Belajar Anak, Pendampingan UMKM Migrasi E-Commerce, hingga Kumpul Karang Taruna ada di galeri ini. Setiap program kerja penuh antusiasme dan semangat gotong royong, diabadikan dalam momen kebersamaan yang memperlihatkan betapa pentingnya kolaborasi antara mahasiswa dan warga dusun.
           </p>
           <p className='text-sm md:text-md lg:text-lg font-light mt-2'>
-          Galeri ini mengajak semua pengunjung untuk melihat kembali perjalanan KKN 85 UAJY di Dusun Karanglor—momen yang tak hanya mengesankan, tetapi juga sarat manfaat bagi kedua belah pihak. Mari nikmati setiap fotonya!
+          Galeri ini mengajak semua pengunjung untuk melihat kembali perjalanan KKN 86 UAJY di Dusun Wunut—momen yang tak hanya mengesankan, tetapi juga sarat manfaat bagi kedua belah pihak. Mari nikmati setiap fotonya!
             </p>
             </div>
         </div>
