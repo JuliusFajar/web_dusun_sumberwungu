@@ -13,7 +13,7 @@ function Body() {
        <div className='container mx-auto p-6 md:p-12 px-4 md:px-10 mb-8'>
       <div>
       <div className='text-black m-5 p-2 border dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
-          <h1 className='text-2xl font-semibold'>Pertanyaan Seputar Informasi Karanglor</h1>
+          <h1 className='text-2xl font-semibold'>Pertanyaan Seputar Informasi Wunut</h1>
           <div className="py-2 md:w-15 grid grid-cols-3 gap-2 text-xs font-light border-b-2 mx-4 my-5 place-items-center">
           <div className="flex flex-col items-center col-span-1">
             <img
@@ -55,7 +55,7 @@ function Body() {
         {
             (function() { // DON'T EDIT BELOW THIS LINE
               var d = document, s = d.createElement('script');
-              s.src = 'https://karanglor.disqus.com/embed.js';
+              s.src = 'https://wunut.disqus.com/embed.js';
               s.setAttribute('data-timestamp', +new Date());
               (d.head || d.body).appendChild(s);
               })()

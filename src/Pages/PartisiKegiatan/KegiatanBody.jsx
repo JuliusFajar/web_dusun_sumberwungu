@@ -15,11 +15,15 @@ import senamHead from "../../assets/images/KegiatanImage/senam (8).webp"
 import bimbelHead from "../../assets/images/KegiatanImage/bimbel (2).webp"
 import mgrsiHead from "../../assets/images/KegiatanImage/mgrsi (6).webp"
 import kgTnaHead from "../../assets/images/KegiatanImage/krgtrna (6).webp"
+import menabung from "../../assets/images/KegiatanImage/menabung (6).webp"
+import merajut from "../../assets/images/KegiatanImage/merajut (1).webp"
 import kknHead1 from "../../assets/images/AssetKebersamaan/gatherImg (1).webp";
 import SenamSehatImages from '../../Components/LazyImage/ProkerImages/SenamSehatImages';
 import BimbelAnak from '../../Components/LazyImage/ProkerImages/BimbinganBelajarImages';
 import MigrasiUMKM from '../../Components/LazyImage/ProkerImages/MigrasiECommerceImages';
 import KarangTaruna from '../../Components/LazyImage/ProkerImages/KarangTaruna';
+import Menabung from '../../Components/LazyImage/ProkerImages/Menabung';
+import Merajut from '../../Components/LazyImage/ProkerImages/Merajut';
 
 
 function Body() {
@@ -186,7 +190,6 @@ function Body() {
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               modules={[Navigation, Pagination, Autoplay]}
             >
-             
                 <MigrasiUMKM />
             
             </Swiper>
@@ -220,6 +223,67 @@ function Body() {
             
             </Swiper>
             </div>
+            
+        </div>
+
+        <div className='text-center'>
+          <div className='text-black m-5 p-4 md:p-8 border dark:bg-gray-900 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
+            <h1 className='text-xl font-semibold mt-2 mb-5'>Proker Individu Menabung</h1>
+            <img
+              src={menabung}
+              alt="Kegiatan KKN"
+              className="object-cover aspect-square  w-[20rem] md:w-[30rem] cursor-pointer p-5 rounded-full block mx-auto" // Fully round
+              onClick={() => handleImageClick(menabung)}
+            />
+            <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
+            <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
+            Program kerja menabung yang di ajarkan oleh kakak Helen ini mengajarkan anak-anak betapa pentingnya menabung 
+            </p>
+            <Swiper
+              spaceBetween={20}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              navigation
+              loop={true}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              modules={[Navigation, Pagination, Autoplay]}
+            >
+             
+                <Menabung />
+            
+            </Swiper>
+            </div>
+            
+        </div>
+
+        <div className='text-center'>
+          <div className='text-black m-5 p-4 md:p-8 border dark:bg-gray-900 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
+            <h1 className='text-xl font-semibold mt-2 mb-5'>Proker Individu Merajut</h1>
+            <img
+              src={merajut}
+              alt="Kegiatan KKN"
+              className="object-cover aspect-square  w-[20rem] md:w-[30rem] cursor-pointer p-5 rounded-full block mx-auto" // Fully round
+              onClick={() => handleImageClick(merajut)}
+            />
+            <p className="text-[#7DA148] dark:text-white text-xs mt-2 font-light">Tekan Gambar untuk Detail</p>
+            <p className='text-sm md:text-md lg:text-lg font-reg text-justify my-4'>
+            Program kerja merajut, yang di ajarkan oleh kakak Shine kepada remaja perempuan di Wunut 
+            </p>
+            <Swiper
+              spaceBetween={20}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              navigation
+              loop={true}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              modules={[Navigation, Pagination, Autoplay]}
+            >
+             
+                <Merajut />
+            
+            </Swiper>
+            </div>
+            
         </div>
 
       </div>

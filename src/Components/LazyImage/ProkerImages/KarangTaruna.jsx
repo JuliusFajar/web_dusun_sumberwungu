@@ -15,6 +15,16 @@ import krgtrna8 from "../../../assets/images/KegiatanImage/krgtrna (8).webp"
 import krgtrna9 from "../../../assets/images/KegiatanImage/krgtrna (9).webp"
 import krgtrna10 from "../../../assets/images/KegiatanImage/krgtrna (10).webp"
 import krgtrna11 from "../../../assets/images/KegiatanImage/krgtrna (11).webp"
+import krgtrna12 from "../../../assets/images/KegiatanImage/krgtrna (12).webp"
+import krgtrna13 from "../../../assets/images/KegiatanImage/krgtrna (13).webp"
+import krgtrna14 from "../../../assets/images/KegiatanImage/krgtrna (14).webp"
+import krgtrna15 from "../../../assets/images/KegiatanImage/krgtrna (15).webp"
+import krgtrna16 from "../../../assets/images/KegiatanImage/krgtrna (16).webp"
+import krgtrna17 from "../../../assets/images/KegiatanImage/krgtrna (17).webp"
+import krgtrna18 from "../../../assets/images/KegiatanImage/krgtrna (18).webp"
+import krgtrna19 from "../../../assets/images/KegiatanImage/krgtrna (19).webp"
+import krgtrna20 from "../../../assets/images/KegiatanImage/krgtrna (20).webp"
+import krgtrna21 from "../../../assets/images/KegiatanImage/krgtrna (21).webp"
 
 
 const images = [
@@ -29,6 +39,16 @@ const images = [
   { id: 9, src: krgtrna9, alt: 'krgtrna' },
   { id: 10, src: krgtrna10, alt: 'krgtrna' },
   { id: 11, src: krgtrna11, alt: 'krgtrna' },
+  { id: 12, src: krgtrna12, alt: 'krgtrna' },
+  { id: 13, src: krgtrna13, alt: 'krgtrna' },
+  { id: 14, src: krgtrna14, alt: 'krgtrna' },
+  { id: 15, src: krgtrna15, alt: 'krgtrna' },
+  { id: 16, src: krgtrna16, alt: 'krgtrna' },
+  { id: 17, src: krgtrna17, alt: 'krgtrna' },
+  { id: 18, src: krgtrna18, alt: 'krgtrna' },
+  { id: 19, src: krgtrna19, alt: 'krgtrna' },
+  { id: 20, src: krgtrna20, alt: 'krgtrna' },
+  { id: 21, src: krgtrna21, alt: 'krgtrna' },
 ];
 
 const KarangTaruna = () => {

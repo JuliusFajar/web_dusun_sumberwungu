@@ -22,6 +22,11 @@ import bimbel15 from "../../../assets/images/KegiatanImage/hw (5).webp";
 import bimbel16 from "../../../assets/images/KegiatanImage/hw (6).webp";
 import bimbel17 from "../../../assets/images/KegiatanImage/hw (7).webp";
 import bimbel18 from "../../../assets/images/KegiatanImage/hw (8).webp";
+import bimbel19 from "../../../assets/images/KegiatanImage/bimbel (11).webp";
+import bimbel20 from "../../../assets/images/KegiatanImage/bimbel (12).webp";
+import bimbel21 from "../../../assets/images/KegiatanImage/bimbel (13).webp";
+import bimbel22 from "../../../assets/images/KegiatanImage/bimbel (14).webp";
+import bimbel23 from "../../../assets/images/KegiatanImage/bimbel (15).webp";
 
 
 
@@ -45,6 +50,12 @@ const images = [
   { id: 16, src: bimbel16, alt: 'bimbelImg' },
   { id: 17, src: bimbel17, alt: 'bimbelImg' },
   { id: 18, src: bimbel18, alt: 'bimbelImg' },
+  { id: 19, src: bimbel19, alt: 'bimbelImg' },
+  { id: 20, src: bimbel20, alt: 'bimbelImg' },
+  { id: 21, src: bimbel21, alt: 'bimbelImg' },
+  { id: 22, src: bimbel22, alt: 'bimbelImg' },
+  { id: 23, src: bimbel23, alt: 'bimbelImg' },
+
 
 ];
 

@@ -89,8 +89,8 @@ function Body() {
             />
              <p className="text-[#7DA148] dark:text-white text-xs font-light text-center">Tekan Gambar untuk Detail</p>
           <p className='text-sm md:text-md lg:text-lg font-light mt-2 mb-8'>
-          Suasana Posko dan Kebersamaan dengan ibu-ibu
-          Di lingkungan posko, kebersamaan antara mahasiswa KKN dan yang lainnya menjadi momen yang hangat. Foto-foto ini menampilkan interaksi sehari-hari di posko, diskusi santai dengan perangkat desa, hingga kegiatan informal yang mempererat hubungan kami dengan masyarakat setempat.
+          Suasana Posko dan Kebersamaan dengan padukuhan
+          Di lingkungan posko, kebersamaan antara mahasiswa KKN dan yang lainnya menjadi momen yang hangat. Foto-foto ini menampilkan momen bersama pada saat di posko, diskusi santai, hingga kegiatan informal yang mempererat hubungan kami dengan masyarakat setempat.
             </p>
             
             <div className='text-black m-2 mb-8 p-3 border dark:bg-gray-900 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
@@ -123,7 +123,7 @@ function Body() {
 
           <p className='text-sm md:text-md lg:text-lg font-light mt-2'>
           Program Kerja (Proker) KKN
-          Dokumentasi pelaksanaan program kerja seperti Senam Sehat untuk ibu-ibu PKK, Bimbingan Belajar Anak, Pendampingan UMKM Migrasi E-Commerce, hingga Kumpul Karang Taruna ada di galeri ini. Setiap program kerja penuh antusiasme dan semangat gotong royong, diabadikan dalam momen kebersamaan yang memperlihatkan betapa pentingnya kolaborasi antara mahasiswa dan warga dusun.
+          Dokumentasi pelaksanaan program kerja seperti Kegiatan gosok gigi dan cuci tangan, Bimbingan Belajar Anak, Sosialisasi phising, dan beberapa kegiatan proker individu ada di galeri ini. Setiap program kerja penuh antusiasme dan semangat gotong royong, diabadikan dalam momen kebersamaan yang memperlihatkan betapa pentingnya kolaborasi antara mahasiswa dan warga dusun.
           </p>
           <p className='text-sm md:text-md lg:text-lg font-light mt-2'>
           Galeri ini mengajak semua pengunjung untuk melihat kembali perjalanan KKN 86 UAJY di Dusun Wunut—momen yang tak hanya mengesankan, tetapi juga sarat manfaat bagi kedua belah pihak. Mari nikmati setiap fotonya!

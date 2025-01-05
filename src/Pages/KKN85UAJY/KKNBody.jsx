@@ -42,19 +42,19 @@ function Body() {
             ></InstagramEmbed>
           </div>
 
-          {/* Instagram Embeds
+          {/* Instagram Embeds */}
           <div className="my-10 w-full">
             <InstagramEmbed
-              width="560"
-              height="1200"
-              url="https://www.instagram.com/aboutwunut?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              width="100%"
+              height="auto"
+              url="https://www.instagram.com/p/DAa4g8qP5nt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               title="IG Feed"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-auto md:h-auto rounded-md"
             ></InstagramEmbed>
-          </div> */}
+          </div>
 
           {/* Other Instagram Embeds */}
           <div className="my-10 w-full">
