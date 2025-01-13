@@ -76,9 +76,9 @@ function Body() {
             <h1 className='text-xl md:text-2xl font-semibold text-center mb-3 md:mb-6 lg:mb-8'>Geografis Tempuh</h1>
             <ul className="list-disc list-inside font-reg text-sm md:text-md lg:text-lg text-justify px-7">
               <li>Terletak di Kecamatan Tepus, Kabupaten Gunung Kidul.</li>
-              <li>Akses Utama Jalan: Jalan idk & Jalur Lintas idk juga</li>
-              <li>Estimasi waktu tempuh <strong>(Kota Yogyakarta)</strong> : <strong> -+ 1.5 Jam/Motor dan -+2 Jam/Mobil.</strong></li>
-              <li>Estimasi waktu tempuh <strong>(Kota Wonosari)</strong>: <strong>-+ entah Menit/Motor dan -+ entah Jam/Mobil.</strong> </li>
+              {/* <li>Akses Utama Jalan: Jalan idk & Jalur Lintas idk juga</li> */}
+              <li>Estimasi waktu tempuh <strong>(Kota Yogyakarta)</strong> : <strong> -+ 1.26 Jam/Motor dan -+1.42 Jam/Mobil.</strong></li>
+              <li>Estimasi waktu tempuh <strong>(Kota Wonosari)</strong>: <strong>-+ 37 Menit/Motor dan -+ 39 Jam/Mobil.</strong> </li>
               {/* <li>Estimasi waktu tempuh <strong>(Kota Wonogiri)</strong> : <strong>-+ entah Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li>
               <li>Estimasi waktu tempuh <strong>(Kota Pacitan)</strong> : <strong>-+ 1 Jam/Motor dan -+ 1.5 Jam/Mobil.</strong> </li> */}
             </ul>
@@ -114,7 +114,7 @@ function Body() {
           </div>
           <div>
             <p className="text-sm md:text-md lg:text-lg font-reg text-justify px-7">
-              Cerita sedikit tentang tanah Sumberwungu
+            Wunut mungkin terlihat seperti desa kecil yang tenang, tapi jangan salah—dusun ini menyimpan banyak cerita dari masa lalu. Terletak di wilayah karst yang unik, Wunut sudah ada sejak zaman dulu kala. Desa ini pertama kali dihuni oleh sepasang suami istri petani tangguh yang berjuang melawan kerasnya tanah berbatu untuk menanam padi, jagung, dan tanaman lain. Walaupun tantangan alamnya cukup berat, semangat pantang menyerah mereka menjadikan Wunut tetap berdiri kokoh, hingga sekarang dihuni lebih dari 1000 penduduknya yang senantiasa ramah dan menjunjung tinggi nilai tradisi lokal.
             </p>
           </div>
         </div>
@@ -124,7 +124,7 @@ function Body() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify px-7'>
-              Tradisi Di Sumberwungu
+            Masyarakat Wunut adalah penjaga tradisi yang luar biasa! Di sini, budaya gotong royong bukan sekadar kata-kata, tapi sudah menjadi gaya hidup sehari-hari. Mereka masih merayakan berbagai upacara adat dengan penuh semangat, seperti slametan desa, yang menghubungkan mereka dengan leluhur dan alam sekitar. Tari-tarian tradisional, musik gamelan, dan ritual keagamaan masih sering kita jumpai di setiap sudut dusun, mengingatkan kita betapa pentingnya menjaga warisan budaya.
             </p>
           </div>
           <div className="flex flex-col items-center">
@@ -152,7 +152,7 @@ function Body() {
           </div>
           <div>
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify px-7'>
-              Sedikit kata motivasi :v
+            Seiring berjalannya waktu, Wunut tak hanya bertahan, tapi juga berkembang dengan penuh optimisme. Setelah Indonesia merdeka, dusun ini mengalami banyak perubahan positif. Jalan-jalan mulai dibangun, sekolah dan puskesmas hadir untuk melayani warga, dan berbagai program desa terus diupayakan untuk meningkatkan kesejahteraan masyarakat. Meskipun begitu, warga Wunut tetap setia pada prinsip mereka: menjaga keseimbangan antara perkembangan dan pelestarian lingkungan serta budaya. Baca Selengkapnya di Website Resmi Sumberwungu.
             </p>
           </div>
         </div>

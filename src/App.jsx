@@ -45,7 +45,7 @@ function App() {
     <Router>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Dusun Wunut</title>
+        <title>Padukuhan Wunut</title>
         <link rel="canonical" href="Link Hosting" />
       </Helmet>
       <div className='bg-white-200'>

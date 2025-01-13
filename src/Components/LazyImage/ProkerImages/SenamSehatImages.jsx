@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'; // For Swiper modules
 import 'swiper/swiper-bundle.css'; // Swiper styles
 
-import senam from "../../../assets/images/AssetKebersamaan/gatherImg (5).webp"
+// import senam from "../../../assets/images/AssetKebersamaan/gatherImg (5).webp"
 import senam1 from "../../../assets/images/KegiatanImage/senam (1).webp"
 import senam2 from "../../../assets/images/KegiatanImage/senam (2).webp"
 import senam3 from "../../../assets/images/KegiatanImage/senam (3).webp"
@@ -34,7 +34,7 @@ import senam111 from "../../../assets/images/KegiatanImage/senam (111).webp"
 import senam27 from "../../../assets/images/KegiatanImage/senam (27).webp"
 
 const images = [
-   { id: 1, src: senam, alt: 'senamImg' },
+  //  { id: 1, src: senam, alt: 'senamImg' },
   { id: 2, src: senam1, alt: 'senamImg' },
   { id: 3, src: senam2, alt: 'senamImg' },
   { id: 4, src: senam3, alt: 'senamImg' },

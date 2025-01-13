@@ -21,7 +21,7 @@ function Body() {
               alt="Logo Desa"
               className="object-contain w-5 mb-1"
             />
-            <p>Karanglor</p>
+            <p>Wunut</p>
           </div>
 
           <div className="flex flex-col items-center col-span-1">

@@ -96,7 +96,7 @@ function Body() {
                   aria-controls="tourism"
                   aria-selected={activeTab === 'tourism'}
                 >
-                  Pariwisata
+                  Telaga
                 </button>
               </li>
               <li className="mr-2" role="presentation">
@@ -129,8 +129,8 @@ function Body() {
           </div>
           <div id="default-tab-content">
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900  ${activeTab === 'tourism' ? '' : 'hidden'}`} id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
-                <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu memiliki potensi pariwisata yang besar dengan keindahan alam dan budaya lokalnya.</p>
-                <Link to='/pariwisata' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]">Baca selengkapnya</Link>
+                <p className="text-sm md:text-md text-black text-justify dark:text-white">Telaga Wunut, kebanggaan Dusun Wunut, merupakan tempat asri yang berfungsi sebagai penampung air dan habitat ikan. Selain itu, telaga ini juga menjadi lokasi favorit warga untuk memancing, menciptakan harmoni antara alam dan aktivitas masyarakat sekitar.</p>
+                {/* <Link to='/pariwisata' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]">Baca selengkapnya</Link> */}
             </div>
             
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'micro-enterprise' ? '' : 'hidden'}`} id="micro-enterprise" role="tabpanel" aria-labelledby="micro-enterprise-tab">
@@ -216,7 +216,7 @@ function Body() {
           </Link>
           <div className="p-5">
             <Link to="/pariwisata">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Pariwisata</h5>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight">Telaga</h5>
             </Link>
               
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
