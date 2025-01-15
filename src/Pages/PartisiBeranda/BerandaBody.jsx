@@ -139,7 +139,7 @@ function Body() {
             </div>
             <div className={`p-4 rounded-lg bg-gray-50 dark:bg-gray-900 ${activeTab === 'culture' ? '' : 'hidden'}`} id="culture" role="tabpanel" aria-labelledby="culture-tab">
                 <p className="text-sm md:text-md text-black text-justify dark:text-white">Dusun Sumberwungu menyimpan kekayaan budaya yang luar biasa, mulai dari tradisi seni hingga upacara adat yang diwariskan secara turun-temurun. Dengan pengembangan sektor kebudayaan, dusun ini memiliki potensi besar untuk menarik minat wisatawan yang ingin mengeksplorasi keunikan budaya lokal. Inisiatif ini diharapkan dapat melestarikan tradisi sekaligus memberikan kontribusi signifikan pada perekonomian setempat.</p>
-                <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]"> Baca Selengkapnya</Link>
+                {/* <Link to='/kegiatan' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 mt-4 dark:bg-[#801C1C]"> Baca Selengkapnya</Link> */}
             </div>
           </div>
         </div>
@@ -220,14 +220,14 @@ function Body() {
             </Link>
               
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              kalo ada nanti di isi
+            Telaga di Wunut menjadi habitat bagi 7.000 bibit ikan nila merah, mendukung budidaya perikanan dan ketahanan pangan lokal. Ikan nila merah dipilih karena pertumbuhan cepat, adaptasi tinggi, dan nilai ekonomisnya. Selain meningkatkan hasil perikanan, program ini menjaga ekosistem telaga dan berpotensi menjadi wisata edukasi. Upaya ini memperkuat ekonomi masyarakat sekaligus melestarikan lingkungan.
             </p>
-            <Link to="/pariwisata" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148]  dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
+            {/* <Link to="/pariwisata" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148]  dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
             Baca selengkapnya
             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
             </svg>
-          </Link>
+          </Link> */}
           </div>
         </div>
 
@@ -239,7 +239,7 @@ function Body() {
             <div className="p-5">
               <Link to="/kegiatan"><h5 className="mb-2 text-2xl font-bold tracking-tight">UMKM Wunut</h5></Link>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              KKN 86 Universitas Atma Jaya Yogyakarta berkomitmen mempromosikan berbagai UMKM yang ada di Wunut seperti Peyek, nasi Godong, kerajian tangan perak.
+            KKN 86 Universitas Atma Jaya Yogyakarta berkomitmen mempromosikan berbagai UMKM di Wunut, seperti peyek, nasi godong, dan kerajinan tangan perak. Melalui pendampingan dan pelatihan, program ini mendukung pengembangan usaha, memperluas pasar, serta memperkenalkan potensi lokal kepada masyarakat luas. Upaya ini bertujuan untuk mendorong pertumbuhan ekonomi, memberdayakan masyarakat setempat, dan melestarikan kearifan lokal.
               </p>
               <Link to="/kegiatan" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
                 Baca selengkapnya
@@ -256,11 +256,11 @@ function Body() {
             </Link>
             
             <div className="p-5">
-              <Link to=''><h5 className="mb-2 text-2xl font-bold tracking-tight">Kebudayaan Reok</h5></Link>
+              <Link to=''><h5 className="mb-2 text-2xl font-bold tracking-tight">Wunut</h5></Link>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
-              Deskripsi singkat tentang reok
+              Wunut adalah sebuah wilayah yang dikenal dengan keindahan alamnya serta potensi lokal yang beragam. Wilayah ini memiliki masyarakat yang hidup harmonis dan menjunjung tinggi semangat gotong-royong. Sumber mata pencaharian utama penduduk meliputi pertanian, peternakan, dan berbagai usaha kreatif, seperti pembuatan peyek, nasi godong, serta kerajinan tangan dari perak. Dengan kekayaan budaya dan potensi ekonominya, Wunut menjadi salah satu contoh desa yang aktif dalam mengembangkan ekonomi lokal melalui kreativitas dan kearifan tradisional.
               </p>
-              <Link to='/berita' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
+              <Link to='/profil' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#7DA148] dark:bg-[#801C1C] rounded-lg hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200">
               Baca selengkapnya
                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />

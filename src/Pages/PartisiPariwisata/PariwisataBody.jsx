@@ -33,12 +33,13 @@ function Body() {
       <div className='container mx-auto p-3 md:p-12 px-3 md:px-10 mb-8'>
       {isHeaderVisible && (
         <div className='text-black m-5 p-3 border dark:bg-gray-800 dark:text-white border-gray-300 dark:border-gray-700 rounded-md bg-white bg-opacity-80'>
-          <h1 className='flex justify-center text-2xl md:text-3xl font-semibold m-2'>Wildan's Homestay <img src={Home} alt="" className="h-12"/></h1>
+          <h1 className='flex justify-center text-2xl md:text-3xl font-semibold m-2'>Telaga Wunut <img src={Home} alt="" className="h-12"/></h1>
           <div className='mx-3 mt-5'>          
             <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
              
-                Selamat datang di Wildan's Homestay, destinasi penginapan terbaru di Desa sumberwungu, Desa Jepitu. Terletak di tengah-tengah keindahan alam Gunung Kidul yang asri, homestay ini menawarkan pengalaman menginap yang nyaman dan damai, jauh dari hiruk pikuk kota. Cocok bagi Anda yang ingin merasakan suasana pedesaan yang tenang, sembari menikmati keramahan lokal dan keindahan budaya sekitar, serta dengan kawasannya yang strategis dekat dengan objek wisata <strong className='font-bold'>Pantai Jungwok</strong> dan <strong className='font-bold'>Pantai Wediombo</strong> m
-                enjadikan tempat ini menjadi destinasi yang pas bagi Anda.
+            Kami dengan hangat menyambut Anda di Wunut, sebuah desa yang kaya akan budaya, tradisi, dan keindahan alam. Di sini, Anda akan menemukan harmoni kehidupan masyarakat yang bersinergi dengan potensi alam dan usaha lokal yang berkembang pesat.
+
+            Salah satu daya tarik utama di Wunut adalah telaga yang menjadi pusat kegiatan masyarakat. Telaga ini tidak hanya berfungsi sebagai sumber irigasi, tetapi juga menampung bibit ikan nila merah sebanyak 7.000 ekor. Keberadaan telaga ini mendukung ketahanan pangan serta meningkatkan perekonomian desa melalui budidaya perikanan. Mari nikmati suasana damai di telaga sembari menjelajahi potensi desa yang menginspirasi.
                 
             </p>
           </div>
@@ -50,7 +51,7 @@ function Body() {
               alt="Logo Desa"
               className="object-contain w-5 mb-1"
             />
-            <p>Karanglor</p>
+            <p>Wunut</p>
           </div>
 
           <div className="flex flex-col items-center col-span-1">
@@ -59,7 +60,7 @@ function Body() {
               alt="Logo KKN"
               className="object-contain w-8 mb-1"
             />
-            <p>KKN 85 UAJY</p>
+            <p>KKN 86 UAJY</p>
           </div>
           
           <div className="flex flex-col items-center col-span-1">
@@ -68,7 +69,7 @@ function Body() {
               alt="Calendar"
               className="w-5 mb-1"
             />
-            <p>Senin, 22 Juli 2024</p>
+            <p>Rabu, 15 Januari 2025</p>
           </div>
           </div>
           

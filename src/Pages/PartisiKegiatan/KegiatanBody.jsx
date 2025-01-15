@@ -85,7 +85,7 @@ function Body() {
               alt="Calendar"
               className="w-5 mb-1"
             />
-            <p>Senin, 13 Januari 2025</p>
+            <p>Senin, 16 Januari 2025</p>
           </div>
           </div>
           
@@ -93,7 +93,7 @@ function Body() {
             Halo sobat virtual sekalian! Pada kesempatan kali ini, Kelompok 35 KKN 86 UAJY ingin mengajak Kita semua untuk menjelajahi kisah di dalam Desa Sumberwungu tercinta kita. Bersama-sama, kita akan membahas mengenai Perjalanan KKN Universitas Atma Jaya Yogyakarta dalam memupuk kebersamaan, gotong royong, dan cinta di tengah masyarakat Desa Sumberwungu.
           </p>
           <p className='text-sm md:text-md lg:text-lg font-light mx-3 mt-5 text-justify'>
-            Selama pelaksanaan KKN 86 Universitas Atma Jaya Yogyakarta di Desa Sumberwungu dari 20 Desember hingga 20 Januari 2025, banyak kegiatan bermakna yang dilakukan bersama warga untuk memperkuat rasa kebersamaan dan menyongsong keberlanjutan dusun.
+            Selama pelaksanaan KKN 86 Universitas Atma Jaya Yogyakarta di Desa Sumberwungu dari 20 Desember hingga 18 Januari 2025, banyak kegiatan bermakna yang dilakukan bersama warga untuk memperkuat rasa kebersamaan dan menyongsong keberlanjutan dusun.
           </p>
         </div>
       )}

@@ -41,7 +41,7 @@ function Body() {
                   alt="Logo Desa"
                   className="object-contain w-5 mb-1"
                 />
-                <p>Sumberwungu</p>
+                <p>Wunut</p>
               </div>
 
               <div className="flex flex-col items-center col-span-1">
@@ -59,13 +59,13 @@ function Body() {
                   alt="Calendar"
                   className="w-5 mb-1"
                 />
-                <p>Senin, 22 Juli 2024</p>
+                <p>Rabu, 15 Januari 2025</p>
               </div>
             </div>
 
             <div className='mx-3 mt-5'>
               <p className='text-sm md:text-md lg:text-lg font-reg text-justify'>
-                Halo sobat virtual sekalian! Selamat datang di cerita yang penuh makna tentang pelestarian budaya lokal, yaitu pagelaran Jathilan di Desa Sumberwungu. Kami, anak-anak KKN 86 UAJY Kelompok 35, berkesempatan menjadi bagian dari momen istimewa ini, di mana semangat gotong royong masyarakat bersatu untuk menjaga tradisi leluhur. Dari gemuruh musik tradisional hingga gerakan tari yang penuh energi, pagelaran ini bukan hanya hiburan, tetapi wujud nyata cinta warga dusun terhadap budaya mereka. Mari simak lebih lanjut dan rasakan kekuatan kebersamaan serta warisan budaya yang terus hidup di tengah kita!
+                Halo sobat virtual sekalian! Selamat datang di cerita yang penuh makna tentang beberapa dokumentasi dari kegiatan kami selama Kuliah Kerja Nyata, UMKM, . Kami, anak-anak KKN 86 UAJY Kelompok 35, berkesempatan menjadi bagian dari momen istimewa ini, di mana semangat gotong royong masyarakat bersatu untuk menjaga tradisi leluhur. Dari gemuruh musik tradisional hingga gerakan tari yang penuh energi, pagelaran ini bukan hanya hiburan, tetapi wujud nyata cinta warga dusun terhadap budaya mereka. Mari simak lebih lanjut dan rasakan kekuatan kebersamaan serta warisan budaya yang terus hidup di tengah kita!
               </p>
             </div>
           </div>
